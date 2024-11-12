@@ -15,7 +15,7 @@ const QueueItemPage = (props: any) => {
 
   const [intervalMs, setIntervalMs] = useState(1000);
 
-  useDocumentTitle(`Queue ${props.queueId} - Ganymede`);
+  useDocumentTitle(`Queue ${props.queueId}`);
 
   const { error, isLoading, data } = useQuery({
     queryKey: ["queue-item", props.queueId],

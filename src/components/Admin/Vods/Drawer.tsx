@@ -220,7 +220,7 @@ const AdminVodDrawer = ({ handleClose, vod, mode }) => {
 
         <Select
           label="Channel"
-          placeholder="ganymede"
+          placeholder="Channel"
           data={channelData}
           value={channelId}
           onChange={setChannelID}

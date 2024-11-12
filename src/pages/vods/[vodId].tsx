@@ -89,7 +89,7 @@ const VodPage = (props: any) => {
   return (
     <div>
       <Head>
-        <title>{data.title} - Ganymede</title>
+        <title>{data.title}</title>
       </Head>
       {checkLoginRequired() && <VodLoginRequired {...data} />}
       {!checkLoginRequired() && (

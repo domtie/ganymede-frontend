@@ -39,7 +39,7 @@ const ArchivePage = () => {
   );
   const [channelData, setChannelData] = useState([]);
   const [channelId, setChannelID] = useState("");
-  useDocumentTitle("Archive - Ganymede");
+  useDocumentTitle("Archive");
 
   const qualityOptions = [
     { label: "Best", value: "best" },

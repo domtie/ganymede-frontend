@@ -63,7 +63,7 @@ const PlaylistPage = (props: any) => {
   return (
     <div>
       <Head>
-        <title>{data.name} - Ganymede Playlist</title>
+        <title>{data.name} - Playlist</title>
       </Head>
       <PlaylistHeader
         playlist={data}

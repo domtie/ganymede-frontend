@@ -10,7 +10,7 @@ import { useDocumentTitle } from "@mantine/hooks";
 const ChannelsPage = () => {
   const queryClient = useQueryClient();
 
-  useDocumentTitle("Channels - Ganymede");
+  useDocumentTitle("Channels");
 
   // React Query
   const { isLoading, error, data } = useQuery({

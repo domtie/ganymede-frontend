@@ -389,7 +389,7 @@ const PlaylistMultistream = (props: { playlistId: string }) => {
   return (
     <div>
       <Head>
-        <title>{data.name} - Ganymede Multistream</title>
+        <title>{data.name} - Multistream</title>
       </Head>
       {checkLoginRequired() && <VodLoginRequired {...data} /> ||
         <div className={classes.pageWrapper}>
