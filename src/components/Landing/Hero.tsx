@@ -25,9 +25,10 @@ export function LandingHero() {
               Visit on Twitch
             </Button>
           </Link>
-          <Link href="/login">
-            <Button className={cx(classes.control, classes.secondaryControl)} size="lg">
-              Login
+          <Link href="https://pmw.store/">
+            <Button className={classes.control} variant="filled" color="#2ACA1B" size="lg">
+            {/*<Button className={cx(classes.control, classes.secondaryControl)} size="lg">*/}
+              Get Wubby Merch
             </Button>
           </Link>
         </div>
