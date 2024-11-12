@@ -26,8 +26,7 @@ export function LandingHero() {
             </Button>
           </Link>
           <Link href="https://pmw.store/">
-            <Button className={classes.control} variant="filled" color="#2ACA1B" size="lg">
-            {/*<Button className={cx(classes.control, classes.secondaryControl)} size="lg">*/}
+            <Button className={cx(classes.control, classes.secondaryControl)} size="lg">
               Get Wubby Merch
             </Button>
           </Link>
