@@ -22,7 +22,7 @@ export function LandingHero() {
         <div className={classes.controls}>
           <Link href="https://www.twitch.tv/paymoneywubby">
             <Button className={classes.control} variant="white" size="lg">
-              Visit on Twitch
+              Watch Live on Twitch
             </Button>
           </Link>
           <Link href="https://pmw.store/">
