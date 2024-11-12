@@ -47,7 +47,8 @@ export const ChannelCard = ({ channel, ...props }: ChannelCardProps) => {
   }, [channel.image_path]);
 
   return (
-    <Link href={"/channels/" + channel.name}>
+    // <Link href={"/channels/" + channel.name}>
+    <Link href={"/watch/"}>
       <Card key={channel.id} p="md" radius="md" component="a" href="#" className={classes.card}>
         <AspectRatio ratio={300 / 300}>
           <Image src={`${publicRuntimeConfig.CDN_URL}${channel.image_path}`} alt={`${channel.name}`} />
