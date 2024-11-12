@@ -10,12 +10,12 @@ export function LandingHero() {
 
       <div className={classes.inner}>
         <Title className={classes.title}>
-          Ganymede
+          PaymoneyWubby
         </Title>
 
         <Container size={640}>
           <Text size="lg" className={classes.description}>
-            Effortlessly preserve live streams and VODs. Every archive comes complete with a chat replay and a rendered chat experience.
+            Enjoy the entire Wubby archive.
           </Text>
         </Container>
 

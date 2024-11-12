@@ -47,7 +47,7 @@ export function LoginForm(props: PaperProps) {
   return (
     <Paper radius="md" p="xl" withBorder {...props}>
       <Text size="lg" fw={500}>
-        Welcome to Ganymede, login below
+        Welcome to the Wubby Archive, login below
       </Text>
 
       {publicRuntimeConfig.SHOW_SSO_LOGIN_BUTTON != "false" && (
