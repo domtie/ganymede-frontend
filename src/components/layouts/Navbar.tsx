@@ -194,6 +194,11 @@ export function HeaderMegaMenu() {
                 </Link>
               )}
             {useJsxAuth({ loggedIn: true, roles: [] }) && (
+                <Link href="/playlists" className={classes.link}>
+                  Playlists
+                </Link>
+            )}
+            {useJsxAuth({ loggedIn: true, roles: [] }) && (
               <Link href="/profile" className={classes.link}>
                 Profile
               </Link>
@@ -291,12 +296,12 @@ export function HeaderMegaMenu() {
           <Link href="/" className={classes.link}>
             Home
           </Link>
-          <Link href="/channels" className={classes.link}>
-            Channels
+          <Link href="/Channels/paymoneywubby" className={classes.link}>
+            All Streams
           </Link>
-          <Link href="/playlists" className={classes.link}>
-            Playlists
-          </Link>
+          {/*<Link href="/playlists" className={classes.link}>*/}
+          {/*  Playlists*/}
+          {/*</Link>*/}
           {useJsxAuth({
             loggedIn: true,
             roles: [ROLES.EDITOR, ROLES.ARCHIVER, ROLES.ADMIN],

@@ -13,7 +13,7 @@ import { LandingLoggedInHero } from "../components/Landing/LoggedInHero";
 
 export default function Home() {
 
-  useDocumentTitle("Ganymede");
+  useDocumentTitle("Wubby Archive");
 
   const user = useUserStore((state) => state);
 
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       )}
       <Center>
-        <div className={classes.title}>Newest Streams</div>
+        <div className={classes.title}>Recent Streams</div>
       </Center>
       <Container size="7xl" >
         <LandingRecentlyArchived />

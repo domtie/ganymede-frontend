@@ -69,7 +69,7 @@ const AdminUserDrawer = ({ handleClose, user, mode }) => {
         <TextInput
           value={username}
           onChange={(e) => setUsername(e.currentTarget.value)}
-          placeholder="ganymede"
+          placeholder="WubbyArchive"
           label="Username"
           required
           mb="xs"

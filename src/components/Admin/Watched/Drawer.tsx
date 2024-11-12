@@ -287,7 +287,7 @@ const AdminWatchedDrawer = ({ handleClose, watched, mode }) => {
         />
         <MultiSelect
           label="Channel"
-          placeholder="ganymede"
+          placeholder="WubbyArchive"
           data={channelData}
           value={channelId}
           onChange={setChannelId}
