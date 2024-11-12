@@ -171,7 +171,7 @@ export function HeaderMegaMenu() {
             {/*<Link href="/channels" className={classes.link}>*/}
             {/*  Channels*/}
             {/*</Link>*/}
-            <Link href="/channels/paymoneywubby" className={classes.link}>
+            <Link href="/watch/paymoneywubby" className={classes.link}>
               All Streams
             </Link>
             <Link href="/playlists" className={classes.link}>
