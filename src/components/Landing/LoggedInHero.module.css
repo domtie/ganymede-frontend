@@ -1,6 +1,6 @@
 .root {
   position: relative;
-  background-image: url(/images/Wubby-banner.jpeg);
+  background-image: url(/images/wubby-banner.jpeg);
   background-size: cover;
   background-position: center;
   padding-top: rem(25px);
