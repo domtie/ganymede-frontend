@@ -10,19 +10,19 @@ export function LandingHero() {
 
       <div className={classes.inner}>
         <Title className={classes.title}>
-          PaymoneyWubby
+          The Wubby Archive
         </Title>
 
         <Container size={640}>
           <Text size="lg" className={classes.description}>
-            Enjoy the entire Wubby archive.
+            Watch all past PaymoneyWubby streams
           </Text>
         </Container>
 
         <div className={classes.controls}>
-          <Link href="/channels">
+          <Link href="https://www.twitch.tv/paymoneywubby">
             <Button className={classes.control} variant="white" size="lg">
-              Channels
+              Visit on Twitch
             </Button>
           </Link>
           <Link href="/login">

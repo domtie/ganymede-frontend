@@ -162,7 +162,7 @@ export function HeaderMegaMenu() {
     <Box>
       <header className={classes.header}>
         <Group h="100%">
-          <Image src="/images/pmw-logo-gradient.webp" height={32} width={32} alt="PMW logo" />
+          <Image src="/images/pmw-logo-gradient.webp" height={32} alt="PMW logo" />
           <Group h="100%" gap={0} visibleFrom="sm">
 
             <Link href="/" className={classes.link}>

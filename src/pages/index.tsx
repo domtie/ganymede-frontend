@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       )}
       <Center>
-        <div className={classes.title}>Recently Archived</div>
+        <div className={classes.title}>Newest Streams</div>
       </Center>
       <Container size="7xl" >
         <LandingRecentlyArchived />
