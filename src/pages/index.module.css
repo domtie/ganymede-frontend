@@ -4,7 +4,8 @@
   letter-spacing: rem(-1px);
   padding-left: var(--mantine-spacing-md);
   padding-right: var(--mantine-spacing-md);
-  color: var(--mantine-color-white);
+  /*color: var(--mantine-color-white);*/
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
   margin-bottom: var(--mantine-spacing-xs);
   text-align: center;
   font-family: Greycliff CF, var(--mantine-font-family);
