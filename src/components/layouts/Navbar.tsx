@@ -171,12 +171,12 @@ export function HeaderMegaMenu() {
             {/*<Link href="/channels" className={classes.link}>*/}
             {/*  Channels*/}
             {/*</Link>*/}
-            <Link href="/watch/paymoneywubby" className={classes.link}>
+            <Link href="/channels/paymoneywubby" className={classes.link}>
               All Streams
             </Link>
-            <Link href="/playlists" className={classes.link}>
-              Playlists
-            </Link>
+            {/*<Link href="/playlists" className={classes.link}>*/}
+            {/*  Playlists*/}
+            {/*</Link>*/}
             {useJsxAuth({
               loggedIn: true,
               roles: [ROLES.EDITOR, ROLES.ARCHIVER, ROLES.ADMIN],
