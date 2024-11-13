@@ -71,7 +71,7 @@ export const VodChatPlayer = ({ vod }: any) => {
     },
     options: {
       settings: ["captions", "quality", "speed", "loop"],
-      autoPlay: false,
+      autoPlay: true,
       clickToPlay: false,
       controls: [],
     },
